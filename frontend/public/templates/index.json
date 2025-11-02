@@ -1,0 +1,9 @@
+{
+  "alphabets": [
+    {
+      "id": "latin",
+      "name": "Latin Uncial",
+      "source": "/templates/latin.json"
+    }
+  ]
+}
