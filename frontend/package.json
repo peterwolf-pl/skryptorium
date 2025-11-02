@@ -2,6 +2,7 @@
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
+  "packageManager": "npm@10.8.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -34,5 +35,9 @@
     "typescript": "^5.4.5",
     "vite": "^5.2.11",
     "vitest": "^1.5.0"
+  },
+  "engines": {
+    "node": "^18.19.0 || ^20.11.0 || ^22.0.0",
+    "npm": ">=9.0.0"
   }
 }
