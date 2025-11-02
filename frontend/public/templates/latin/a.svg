@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+  <defs>
+    <radialGradient id="parchment" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#fefaf1"/>
+      <stop offset="100%" stop-color="#efe1c0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="640" fill="url(#parchment)"/>
+  <g fill="none" stroke="#a05a2c" stroke-width="28" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M230 140 C170 220 160 320 190 420 C220 520 300 540 360 520 C420 500 470 430 480 330 C488 250 440 180 360 150 C310 130 260 130 230 140 Z"/>
+    <path d="M400 100 L390 330 C384 440 384 520 384 560"/>
+  </g>
+</svg>

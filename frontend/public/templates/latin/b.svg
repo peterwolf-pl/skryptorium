@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+  <defs>
+    <radialGradient id="parchment" cx="48%" cy="40%" r="68%">
+      <stop offset="0%" stop-color="#fdf7ea"/>
+      <stop offset="100%" stop-color="#eedcb2"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="640" fill="url(#parchment)"/>
+  <g fill="none" stroke="#a05a2c" stroke-width="28" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M240 80 L240 560"/>
+    <path d="M240 90 C340 120 420 160 420 240 C420 320 330 340 260 360"/>
+    <path d="M260 360 C350 380 440 420 420 500 C400 580 320 590 240 560"/>
+  </g>
+</svg>

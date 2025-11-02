@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import { CalligraphyTrainer } from './modules/calligraphy';
 import { usePointerEvents, PointerHandlers } from './hooks/usePointerEvents';
 
 type InteractionSnapshot = {
@@ -155,6 +156,10 @@ function App(): JSX.Element {
             </article>
           ))}
         </div>
+      </section>
+
+      <section>
+        <CalligraphyTrainer />
       </section>
 
       <footer className="footer">
