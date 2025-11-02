@@ -1,0 +1,16 @@
+{
+  "alphabets": [
+    {
+      "id": "latin_basic",
+      "name": "Łaciński – minuskuły",
+      "letters": [
+        {
+          "id": "latin_a",
+          "name": "a",
+          "template": "/templates/latin/a.json",
+          "preview": "/templates/latin/a.svg"
+        }
+      ]
+    }
+  ]
+}
