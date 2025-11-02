@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="grain" cx="50%" cy="50%" r="75%">
+      <stop offset="0" stop-color="#f4e4c1" />
+      <stop offset="0.45" stop-color="#f0d7aa" />
+      <stop offset="1" stop-color="#d9b88b" />
+    </radialGradient>
+    <filter id="noise" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="1.8" numOctaves="3" seed="4" />
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.15" />
+      </feComponentTransfer>
+      <feGaussianBlur stdDeviation="0.8" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" fill="url(#grain)" />
+  <rect width="512" height="512" fill="#b6895c" opacity="0.18" filter="url(#noise)" />
+  <rect width="512" height="512" fill="#fff8dc" opacity="0.12" />
+</svg>

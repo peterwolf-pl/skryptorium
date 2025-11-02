@@ -1,0 +1,45 @@
+{
+  "id": "latin_a",
+  "name": "Minuskula a",
+  "alphabetId": "latin_basic",
+  "alphabetName": "Łaciński – minuskuły",
+  "width": 512,
+  "height": 512,
+  "preview": "/templates/latin/a.svg",
+  "backgroundTexture": "/templates/textures/parchment.svg",
+  "strokes": [
+    {
+      "id": "oval",
+      "weight": 1,
+      "path": [
+        { "x": 280, "y": 164 },
+        { "x": 250, "y": 150 },
+        { "x": 212, "y": 150 },
+        { "x": 176, "y": 184 },
+        { "x": 160, "y": 238 },
+        { "x": 166, "y": 296 },
+        { "x": 196, "y": 344 },
+        { "x": 240, "y": 368 },
+        { "x": 286, "y": 360 },
+        { "x": 324, "y": 328 },
+        { "x": 344, "y": 280 },
+        { "x": 346, "y": 224 },
+        { "x": 330, "y": 186 },
+        { "x": 300, "y": 166 }
+      ]
+    },
+    {
+      "id": "stem",
+      "weight": 1,
+      "path": [
+        { "x": 332, "y": 112 },
+        { "x": 332, "y": 176 },
+        { "x": 328, "y": 236 },
+        { "x": 324, "y": 296 },
+        { "x": 322, "y": 360 },
+        { "x": 326, "y": 404 },
+        { "x": 332, "y": 444 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="strokeGradient" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1f2937" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="512" height="512" fill="none" />
+  <path
+    d="M280 164 C250 148 212 152 180 190 C152 226 154 292 198 338 C240 382 312 360 336 302 C356 254 348 186 300 164"
+    fill="none"
+    stroke="url(#strokeGradient)"
+    stroke-width="32"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.6"
+  />
+  <path
+    d="M332 112 C332 220 318 322 328 444"
+    fill="none"
+    stroke="url(#strokeGradient)"
+    stroke-width="32"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.7"
+  />
+</svg>
